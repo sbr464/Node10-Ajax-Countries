@@ -14,6 +14,8 @@ app.get('/', indexController.index);
 
 app.get('/countries', indexController.countries);
 
+app.post('/countryPost', indexController.countryPost);
+
 
 var server = app.listen(8903, function() {
 	console.log('Express server listening on port ' + server.address().port);

@@ -1,9 +1,15 @@
 extends layout
 
 block content
-	h1 Hello Boulder!
+	form(id="searchForm")
+		h1 Countries of the World
+		.form-group
+			input#searchBox.form-control(name='searchBox', placeholder='Search', type='text')
+		.form-group
+			button#searchButton.btn.btn-primary(type='submit') Search
+	
+	button#loadbutton.btn.btn-secondary(name='loadbutton') Load Countries
 
-	button#loadbutton(name='loadbutton') Load Countries
-
+	h3#list-title List of Countries
 	ul#countrylist 
-		h3 List of Countries
+	

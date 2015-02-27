@@ -3,6 +3,8 @@
     "body-parser": "^1",
     "express": "^4",
     "jade": "^1",
-    "mongoose": "^3.8.23"
+    "mongoose": "^3.8.23",
+    "phonegap": "^4.2.0-0.24.2",
+    "underscore": "^1.8.2"
   }
 }
