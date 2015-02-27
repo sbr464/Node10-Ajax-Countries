@@ -16,8 +16,6 @@ var indexController = {
 
   countryPost: function(req,res) {
 
-    console.log(req.body.searchData);
-
     var found = _.find(countriesData, function(obj){
      
       return obj.name === req.body.searchData
